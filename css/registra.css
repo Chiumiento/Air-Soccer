@@ -1,0 +1,89 @@
+html,body{height: 100%;}
+
+.header{background-color: #6B8E23;
+		border-radius: 10px;}
+		
+.header a:hover{background: white;}
+
+label{display: none;}
+
+.header_home{color:#000;
+			 display: inline-block;
+			 padding: 20px;
+			 font-size: 20px;
+			 text-decoration: none;
+			  }
+			 
+.header_item{display: inline-block;
+			float:right;
+			padding:20px;
+			margin:0;
+			color: #000;
+			text-decoration: none;
+			font-size: 20px;}
+
+.form_registrazione{
+					position:relative;
+					top: 5px;
+					border:3px solid #232323;
+					height:100%;
+					border-radius: 10px;
+					background-color: #6B8E23;		
+					}
+
+.sfondo{background-color: #fff}
+
+button[type="submit"]{
+	border-color: #232323;
+	background-color: #6B8E23;
+	margin: 20px;
+	padding: 11px 10px 11px 13px;
+	color: #000;
+	text-align: center;
+	border-width: 0.5px;
+	border-radius: 10px;
+	cursor: pointer;
+	width: 20%;
+	display: block;
+	position: relative;
+	left: 39%;
+	top: 70px;
+	border:2px solid #232323;
+	}
+
+button:hover[type="submit"]{background: #fff;}
+
+.registrati input{ 
+	width: 40%;
+	padding: 11px 10px 11px 13px;
+	text-align: center;
+	display: block;
+	margin: 10px;
+	border: 0;
+	background: #fff;
+	font: 16px "Helvetica Neue","HelveticaNeue","Helvetica","Arial","sans-serif";
+	color: #000;
+	letter-spacing: normal;
+	word-spacing: normal;
+	text-transform: none;
+	text-indent: 0px;
+	outline-width: 0;
+	border-radius: 10px;
+	position: relative;
+	left: 30%;
+	top: 70px;
+	}
+
+
+.hdati{color: #000;
+	   position: relative;
+       left:44.5%;}
+
+.haccount{color: #000;
+		  position: relative;
+		  left:47%;}
+
+#declare{color: #000;
+		position: relative;
+		bottom: 32.5px;
+		left: 52%;}

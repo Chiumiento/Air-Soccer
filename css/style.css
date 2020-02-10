@@ -1,0 +1,104 @@
+ html,body{width:100%;}
+
+.header{background-color: #6B8E23;
+		width:99%;
+		border-radius: 10px;
+}
+
+label{display: none;}
+		
+.header a:hover{background: white;}
+
+.header_home{color:#000;
+			 display: inline-block;
+			 padding: 20px;
+			 font-size: 20px;
+			 text-decoration: none;
+			 }
+			 
+.header_item{display: inline-block;
+			float:right;
+			padding:20px;
+			margin:0;
+			color: #000;
+			text-decoration: none;
+			font-size: 20px;}
+			 
+.header_item a:hover{background-color: white;}
+
+.form_login{
+		    height: 150px;
+		    position: absolute;
+			top: 48%;
+			left: 43%;
+			margin: -75px 0 0 -125px;
+			width: 500px;
+			opacity: 0.9;
+			padding: 25px;
+			overflow: hidden;
+			border-radius: 20px;
+			}
+
+.form_login label{display: none;}
+			
+.form_login button[type="submit"]{
+	border-color: #232323;
+	background-color: #6B8E23;
+	margin: 20px;
+	padding: 11px 10px 11px 13px;
+	color: #000;
+	text-align: center;
+	border-radius: 10px;
+	border:2px solid #232323;
+	border-width: 2px;
+	cursor: pointer;
+	width: 20%;
+	display: block;
+	position: relative;
+	left: 37.5%;
+	
+	}
+	
+.form_login button:hover[type="submit"]{background: white;}
+			
+.form_login input{
+	width: 100%;
+	padding: 11px 10px 11px 13px;
+	text-align: center;
+	display: block;
+	margin: 10px;
+	border: 0;
+	background: #fff;
+	font: 16px "Helvetica Neue","HelveticaNeue","Helvetica","Arial","sans-serif";
+	color: #222;
+	letter-spacing: normal;
+	word-spacing: normal;
+	text-transform: none;
+	text-indent: 0px;
+	outline-width: 0;
+	border-radius: 10px;
+		  
+		 }
+
+
+.sfondo{ background: url("./../Immagini/Sfondo.jpg");
+		background-size: cover;
+		width:99%;
+		} 
+
+
+		
+		
+		
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
